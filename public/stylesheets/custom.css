@@ -9,7 +9,7 @@
 
 body 
 {
-  background: #cff;
+  background: #666;
   font-family: "Lucida Console", sans-serif;
 }
 
@@ -18,10 +18,23 @@ body
   padding-top: 20px;
 }
 
+#footer .navigation 
+{
+  float: none;
+}
+
+#content 
+{
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #999;
+}
+
 #header img 
 {
   padding: 1em;
-  background: #fff;
+  background: #999;
   border-width: 0px;
 }
 
@@ -32,18 +45,6 @@ body
   width: 710px;
   margin-left: auto;
   margin-right: auto;
-}
-
-#footer .navigation {
-  float: none;
-}
-
-#content 
-{
-  margin-top: 1em;
-  font-size: 120%;
-  padding: 20px;
-  background: #fff;
 }
 
 /* Links */
@@ -70,11 +71,11 @@ a:visited
 .navigation
 {
 	float: right;
+	background: #999
 }
 
 .navigation
 {
-	background-color: white;
 	padding: 0 0.7em;
 	white-space: nowrap;
 }
@@ -116,7 +117,7 @@ a.signup_button
 	text-align: center;
 	width: 190px;
 	color: #fff;
-	background: #006400;
+	background: #FF6633;
 	font-size: 150%;
 	font-weight: bold;
 	padding: 20px;
